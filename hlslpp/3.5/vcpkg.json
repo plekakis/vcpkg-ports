@@ -4,6 +4,7 @@
   "port-version": 0,
   "homepage": "https://github.com/redorav/hlslpp",
   "description": "Math library using HLSL syntax with multiplatform SIMD support.",
+  "supports": "!x86",
   "license": "MIT",
   "dependencies": [
     {
