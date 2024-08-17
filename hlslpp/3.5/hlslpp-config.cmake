@@ -1,5 +1,4 @@
-# Set the version number
-set(hlslpp_VERSION 3.5)
+add_library(hlslpp INTERFACE)
+add_library(hlslpp::hlslpp ALIAS hlslpp)
 
-# Specify include directories
-set(hlslpp_INCLUDE_DIRS "${CMAKE_CURRENT_LIST_DIR}/../../include/hlslpp/include")
+target_include_directories(hlslpp INTERFACE "${CMAKE_CURRENT_LIST_DIR}/../../include/hlslpp")
